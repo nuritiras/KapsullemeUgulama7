@@ -1,4 +1,4 @@
-SIRA SİZDE:
+#SIRA SİZDE:
 “Personel” sınıfına maaş özelliğini kapsüllemeyle ekleyiniz. Maaş değerini
 4.253’ten az olmayacak şekilde ayarlayınız.
 DEĞERLENDİRME: Çalışmanız aşağıda yer alan kontrol listesi kullanılarak değerlendirilecektir.
