@@ -1,8 +1,8 @@
 # SIRA SİZDE:
 “Personel” sınıfına maaş özelliğini kapsüllemeyle ekleyiniz. Maaş değerini 4.253’ten az olmayacak şekilde ayarlayınız.
-## DEĞERLENDİRME: Çalışmanız aşağıda yer alan kontrol listesi kullanılarak değerlendirilecektir.
+#### DEĞERLENDİRME: Çalışmanız aşağıda yer alan kontrol listesi kullanılarak değerlendirilecektir.
 Çalışmanızı yaparken değerlendirme ölçütlerini dikkate alınız.
-## KONTROL LİSTESİ DEĞERLENDİRME ÖLÇÜTLERİ
+#### KONTROL LİSTESİ DEĞERLENDİRME ÖLÇÜTLERİ
 1. New Project komutunu tıkladı.
 2. Empty Activity proje türünü seçti.
 3. Uygulama adını belirledi.
