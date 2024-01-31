@@ -4,6 +4,7 @@ import android.util.Log;
 
 public class Personel {
     private int yas;
+    private long maas;
 
     public int getYas() {
         return yas;
@@ -15,5 +16,17 @@ public class Personel {
             yas=18;
         }
         this.yas = yas;
+    }
+
+    public long getMaas() {
+        return maas;
+    }
+
+    public void setMaas(long maas) {
+        if(maas<4253){
+            Log.e("Kapsülleme","Hatalı maaş");
+            maas=4253;
+        }
+        this.maas = maas;
     }
 }

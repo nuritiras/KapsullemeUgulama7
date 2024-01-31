@@ -14,15 +14,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         EditText editTextYas = findViewById(R.id.editTextYas);
+        EditText editTextMaas = findViewById(R.id.editTextMaas);
         Button buttonKaydet = findViewById(R.id.buttonKaydet);
         TextView textViewSonuc = findViewById(R.id.textViewSonuc);
         buttonKaydet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int yas = Integer.parseInt(editTextYas.getText().toString());
+                long maas=Long.parseLong(editTextMaas.getText().toString());
                 Personel personel = new Personel();
                 personel.setYas(yas);
-                textViewSonuc.setText(Integer.toString(personel.getYas()));
+                personel.setMaas(maas);
+                textViewSonuc.setText("Yaş:"+personel.getYas()+" Maaş:"+personel.getMaas());
             }
         });
     }
